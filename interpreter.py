@@ -2,7 +2,7 @@
 
 import re
 
-program = r"C:\Users\terps\Documents\Python-Scripts\Big-projects\Instruction\program.txt"
+program = r"program.psep"
 lines = []
 
 with open(program, "r") as file:

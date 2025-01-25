@@ -2,7 +2,7 @@
 
 import re
 
-program = r"program.psep"
+program = "program.psep"
 lines = []
 
 with open(program, "r") as file:
@@ -19,6 +19,6 @@ for line in lines:
 out = ''
 
 for char in processedlines:
-    out += ''+char
+    out += char
 
 print(out)
